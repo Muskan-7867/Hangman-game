@@ -23,7 +23,8 @@ while total_chances!=0:
             total_chances-=1
             print("incorrect guess")
             print('The remaining chances are: ',total_chances)
-print("GAME OVER")
-print("You Lose")
-print("All the chances are exhausted")
+else:
+    print("GAME OVER")
+    print("You Lose")
+    print("All the chances are exhausted")
 print("The actual word is",word)
